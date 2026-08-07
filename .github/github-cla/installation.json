@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+    "schemaVersion": 1,
+    "payLoadVersion": 1,
   "installedVersion": "0.2.0-dev",
   "installationType": "reinstalled",
   "files": {
