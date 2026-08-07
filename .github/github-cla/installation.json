@@ -1,5 +1,6 @@
 {
   "schemaVersion": 1,
+  "payloadVersion": 2,
   "installedVersion": "0.2.0-dev",
   "payloadVersion": 2,
   "installationType": "reinstalled",
