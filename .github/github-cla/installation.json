@@ -1,6 +1,6 @@
 {
-    "schemaVersion": 1,
-    "payloadVersion": 1,
+  "schemaVersion": 1,
+  "payloadVersion": 2,
   "installedVersion": "0.2.0-dev",
   "installationType": "reinstalled",
   "files": {
@@ -18,34 +18,14 @@
     },
     ".github/workflows/refresh-contributor-agreements.yml": {
       "policy": "managed",
-      "sha256": "36fcec6fd59d1eaab56945c1f300255c8ec253842fd3b5b8e5743acca8650b83"
-    },
-    "agreement/CONTRIBUTOR_AGREEMENT.md": {
-      "policy": "customizable",
-      "sha256": "204642ff1a5f4d691265ccd93c65d595cedd562d207a219b72c12e9b6fff651a"
+      "sha256": "98011dd73cbb67851438ec48a710167452f3d9da12f58c018569172bb8e8e63f"
     },
     "CLA_REGISTRY.yaml": {
       "policy": "protected-data"
     },
-    "scripts/evaluate-contributor-agreement.mjs": {
-      "policy": "managed",
-      "sha256": "90907874bf39300df22f0dc90f3b7750e29429324ace4370117bc227e263f3b2"
-    },
-    "scripts/manage-contributor-agreement-comment.mjs": {
-      "policy": "managed",
-      "sha256": "ec4d95d6161b65116af47eeff48dfd889266ef3f983333fa239a5893e7739ffd"
-    },
-    "scripts/prepare-agreement-pr.mjs": {
-      "policy": "managed",
-      "sha256": "f094809b01b0eb8d606b422a2a6e983314798dadf63c2f89ece21bfe0af16f6f"
-    },
-    "scripts/refresh-contributor-agreements.mjs": {
-      "policy": "managed",
-      "sha256": "545364e90ffe12e85942c0905dbd24128c91f3eb2520862b6e90c3292037e2f6"
-    },
-    "scripts/resolve-agreement-target-branch.mjs": {
-      "policy": "managed",
-      "sha256": "1b800e3028cbf46a14f7037b940e82df2939bf61dc80f40138c53d7867a5e23c"
+    "agreement/CONTRIBUTOR_AGREEMENT.md": {
+      "policy": "customizable",
+      "sha256": "204642ff1a5f4d691265ccd93c65d595cedd562d207a219b72c12e9b6fff651a"
     },
     "lib/agreement-request.js": {
       "policy": "managed",
@@ -82,6 +62,26 @@
     "lib/status.js": {
       "policy": "managed",
       "sha256": "e8f40f9366854d49c9236b21b44d0f1cd9ff2ceddb1a8a6cf0c723ac10b8c3f1"
+    },
+    "scripts/evaluate-contributor-agreement.mjs": {
+      "policy": "managed",
+      "sha256": "90907874bf39300df22f0dc90f3b7750e29429324ace4370117bc227e263f3b2"
+    },
+    "scripts/manage-contributor-agreement-comment.mjs": {
+      "policy": "managed",
+      "sha256": "ec4d95d6161b65116af47eeff48dfd889266ef3f983333fa239a5893e7739ffd"
+    },
+    "scripts/prepare-agreement-pr.mjs": {
+      "policy": "managed",
+      "sha256": "f094809b01b0eb8d606b422a2a6e983314798dadf63c2f89ece21bfe0af16f6f"
+    },
+    "scripts/refresh-contributor-agreements.mjs": {
+      "policy": "managed",
+      "sha256": "545364e90ffe12e85942c0905dbd24128c91f3eb2520862b6e90c3292037e2f6"
+    },
+    "scripts/resolve-agreement-target-branch.mjs": {
+      "policy": "managed",
+      "sha256": "4c0264ff5363d9d2591099867d5d260d2d2344e7029f07d9ad4344dc78bbe8ee"
     }
   }
 }

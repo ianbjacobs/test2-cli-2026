@@ -19,7 +19,7 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the updated branch
+      - name: Check out the updated default branch
         uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}
@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: npm install --ignore-scripts
 
-      - name: Refresh open pull requests targeting this branch
+      - name: Refresh open pull requests
         env:
           GITHUB_TOKEN: ${{ github.token }}
           TARGET_BRANCH: ${{ github.ref_name }}
