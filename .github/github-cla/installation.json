@@ -1,6 +1,6 @@
 {
-    "schemaVersion": 1,
-    "payloadVersion": 1,
+  "schemaVersion": 1,
+  "payloadVersion": 2,
   "installedVersion": "0.2.0-dev",
   "installationType": "reinstalled",
   "files": {
@@ -18,7 +18,7 @@
     },
     ".github/workflows/refresh-contributor-agreements.yml": {
       "policy": "managed",
-      "sha256": "36fcec6fd59d1eaab56945c1f300255c8ec253842fd3b5b8e5743acca8650b83"
+      "sha256": "98011dd73cbb67851438ec48a710167452f3d9da12f58c018569172bb8e8e63f"
     },
     "agreement/CONTRIBUTOR_AGREEMENT.md": {
       "policy": "customizable",
@@ -45,7 +45,7 @@
     },
     "scripts/resolve-agreement-target-branch.mjs": {
       "policy": "managed",
-      "sha256": "1b800e3028cbf46a14f7037b940e82df2939bf61dc80f40138c53d7867a5e23c"
+      "sha256": "4c0264ff5363d9d2591099867d5d260d2d2344e7029f07d9ad4344dc78bbe8ee"
     },
     "lib/agreement-request.js": {
       "policy": "managed",
