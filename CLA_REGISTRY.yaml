@@ -1,14 +1,7 @@
 schemaVersion: 1
 agreementVersion: '1.0'
 agreements:
-  - githubId: 287526
-    githubNodeId: MDQ6VXNlcjI4NzUyNg==
-    githubLogin: torgo
-    agreementVersion: '1.0'
-    signedAt: '2026-08-10T13:48:57Z'
-    issueNumber: 22
-    issueNodeId: I_kwDOTu670M8AAAABMKBCdg
-  - githubId: 312982953
+    - githubId: 312982953
     githubNodeId: U_kgDOEqe9qQ
     githubLogin: ianbjacobs-test
     agreementVersion: '1.0'
