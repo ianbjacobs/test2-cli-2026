@@ -1,3 +1,10 @@
 schemaVersion: 1
 agreementVersion: '1.0'
-agreements: []
+agreements:
+  - githubId: 43209
+    githubNodeId: MDQ6VXNlcjQzMjA5
+    githubLogin: BigBlueHat
+    agreementVersion: '1.0'
+    signedAt: '2026-08-12T18:32:13Z'
+    issueNumber: 26
+    issueNodeId: I_kwDOTu670M8AAAABMgPIrw
