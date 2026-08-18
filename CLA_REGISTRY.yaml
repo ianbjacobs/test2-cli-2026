@@ -8,3 +8,10 @@ agreements:
     signedAt: '2026-08-12T18:32:13Z'
     issueNumber: 26
     issueNodeId: I_kwDOTu670M8AAAABMgPIrw
+  - githubId: 1122927
+    githubNodeId: MDQ6VXNlcjExMjI5Mjc=
+    githubLogin: tidoust
+    agreementVersion: '1.0'
+    signedAt: '2026-08-18T13:25:45Z'
+    issueNumber: 29
+    issueNodeId: I_kwDOTu670M8AAAABNOOxYA
